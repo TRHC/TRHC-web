@@ -6,19 +6,21 @@
                 <b-field :type="failed">
                     <b-input v-model="user.username"
                              placeholder="логін"
+                             rounded
                              icon="account"
                     />
                 </b-field>
                 <b-field :type="failed">
                     <b-input v-model="user.password"
                              type="password"
+                             rounded
                              password-reveal
                              placeholder="пароль"
                              icon="lock"
                     />
                 </b-field>
                 <b-field>
-                    <button class="button is-block is-link" type="submit">Ввійти</button>
+                    <button class="button is-block is-primary is-rounded" type="submit">Ввійти</button>
                     <input class="button is-block is-text" type="reset" value="Скинути">
                 </b-field>
             </form>
@@ -26,7 +28,7 @@
                 Будь ласка, перевірте правильність введених данних.
             </b-message>
 
-            <b-message title="Реєстрація" type="is-info">
+            <b-message title="Реєстрація" type="is-primary">
                 Якщо ви ще не зареєструвались, то ви можете це зробити на
                 <router-link to="/signup">сторінці реєстрації</router-link>
                 .

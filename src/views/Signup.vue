@@ -8,6 +8,7 @@
                              placeholder="Ім'я"
                              icon="account"
                              title="Іван"
+                             rounded
                     />
                 </b-field>
                 <b-field :type="failed.surname">
@@ -15,6 +16,7 @@
                              placeholder="Прізвище"
                              icon="account-outline"
                              title="Іванов"
+                             rounded
                     />
                 </b-field>
                 <b-field :type="failed.username">
@@ -22,6 +24,7 @@
                              placeholder="Нікнейм"
                              icon="ticket-account"
                              title="_NickName_ Буде використаний як логін."
+                             rounded
                     />
                 </b-field>
                 <b-field :type="failed.phone">
@@ -30,6 +33,7 @@
                              placeholder="Номер телефону"
                              icon="phone"
                              title="093-12-34-567"
+                             rounded
                     />
                 </b-field>
                 <b-field :type="failed.email">
@@ -37,6 +41,7 @@
                              placeholder="Електронна пошта"
                              icon="at"
                              title="example@mail.com"
+                             rounded
                     />
                 </b-field>
                 <b-field :type="failed.password">
@@ -46,6 +51,7 @@
                              placeholder="Пароль"
                              icon="lock"
                              title="Можуть бути застосовані будь-які символи: A-Z, a-z, А-Я, а-я, 0-9, .,-/\!@#$%&*()+="
+                             rounded
                     />
                 </b-field>
                 <b-field :type="failed.passwordReveal">
@@ -55,6 +61,7 @@
                              placeholder="Пароль ще раз"
                              icon="lock"
                              title="Повторіть Ваш пароль"
+                             rounded
                     />
                 </b-field>
                 <b-message title="Помилка реєстрації!" type="is-danger" has-icon :active.sync="isActive">
@@ -69,7 +76,7 @@
                     <router-link to="/privacy-policy">нашою політикою конфіденційності</router-link>
                 </p>
                 <b-field>
-                    <button class="button is-block is-link" type="submit">Зареєструватись</button>
+                    <button class="button is-block is-primary is-rounded" type="submit">Зареєструватись</button>
                     <input class="button is-block is-text" type="reset" value="Скинути">
                 </b-field>
             </form>

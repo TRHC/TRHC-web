@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <NavB/>
-        <section class="hero is-info">
+        <section class="hero is-light">
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title is-size-1">
@@ -56,6 +56,6 @@
     }
 
     i {
-        color: hsl(217, 71%, 53%);
+        color: #42b983;
     }
 </style>

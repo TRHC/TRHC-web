@@ -15,14 +15,14 @@ export default {
                     display: true,
                     scaleLabel: {
                         display: true,
-                        labelString: 'Початок періоду збору інформації'
+                        labelString: 'Час'
                     }
                 }],
                 yAxes: [{
                     display: true,
                     scaleLabel: {
                         display: true,
-                        labelString: 'Кіловатгодини'
+                        labelString: 'Температура (гр. Ц) \ Відносна вологість'
                     }
                 }]
             }

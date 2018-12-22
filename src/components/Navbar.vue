@@ -1,7 +1,7 @@
 <template>
-    <nav class="navbar is-link is-fixed-top" role="navigation" aria-label="dropdown navigation">
+    <nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="dropdown navigation">
         <div class="navbar-brand">
-            <router-link to="/" class="navbar-item title" style="margin-bottom: 0;">SolStat</router-link>
+            <router-link to="/" class="navbar-item title" style="margin-bottom: 0;">TRHC</router-link>
 
             <a role="button" class="navbar-burger burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
@@ -12,13 +12,12 @@
 
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-start" v-if="logged">
-                <router-link to="/statistic" class="navbar-item">Статистика роботи електростанції</router-link>
-                <router-link to="/howtouse" class="navbar-item">Як користуватись сервісом</router-link>
+                <router-link to="/statistic" class="navbar-item">Мікроклімат</router-link>
+                <router-link to="/devices" class="navbar-item">IOT-менеджер</router-link>
                 <router-link to="/info" class="navbar-item">Панель інформації</router-link>
             </div>
             <div class="navbar-start" v-else>
                 <router-link to="/description" class="navbar-item">Опис</router-link>
-                <router-link to="/howtouse" class="navbar-item">Як користуватись сервісом</router-link>
             </div>
 
             <div class="navbar-end">

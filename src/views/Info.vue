@@ -1,7 +1,7 @@
 <template>
     <div class="columns">
         <div class="column box is-8 is-offset-2 container has-text-left">
-            <h1 class="title">Інформація про споживача:</h1>
+            <h1 class="title">Інформація про користувача:</h1>
             <p class="name"><strong>Ім'я: </strong> {{user.name}}</p>
             <p class="surname"><strong>Прізвище: </strong> {{user.surname}}</p>
             <p class="phone"><strong>Номер телефону: </strong> {{user.phone}}</p>
